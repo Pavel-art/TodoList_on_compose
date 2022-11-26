@@ -1,0 +1,1 @@
+package com.example.navigation_test.domain.useCasesimport androidx.lifecycle.LiveDataimport com.example.navigation_test.domain.models.Todoimport com.example.navigation_test.domain.repository.TodoRepositoryclass GetTodoListUseCase(private val repository: TodoRepository) {    operator fun invoke(): LiveData<List<Todo>> {        return repository.getTodoList()    }}

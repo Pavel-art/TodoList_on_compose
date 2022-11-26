@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">navigation_test</string>
+    <string name="add_todo">ДОБАВИТЬ ДЕЛО</string>
+    <string name="todo_title">Заголовок задачи</string>
+    <string name="todo_description">текст задачи</string>
+    <string name="label_name">name</string>
+    <string name="label_description">description</string>
+    <string name="edit_todo">РЕДАКТИРОВАТЬ</string>
+</resources>

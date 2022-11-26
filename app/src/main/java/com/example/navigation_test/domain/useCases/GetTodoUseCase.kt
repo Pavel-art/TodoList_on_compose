@@ -1,0 +1,1 @@
+package com.example.navigation_test.domain.useCasesimport com.example.navigation_test.domain.repository.TodoRepositoryclass GetTodoUseCase(private val repository: TodoRepository) {    suspend operator fun invoke(todoId:Int) {        repository.getTodo(todoId)    }}

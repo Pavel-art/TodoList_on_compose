@@ -1,0 +1,1 @@
+package com.example.navigation_test.domain.modelsdata class Todo(    val title: String,    val description: String,    val completed: Boolean,    var id: Int = UNDEFINED_ID) {    companion object {        const val UNDEFINED_ID = 0    }}

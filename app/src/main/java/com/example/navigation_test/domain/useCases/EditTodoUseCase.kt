@@ -1,0 +1,1 @@
+package com.example.navigation_test.domain.useCasesimport com.example.navigation_test.domain.models.Todoimport com.example.navigation_test.domain.repository.TodoRepositoryclass EditTodoUseCase(private val repository: TodoRepository) {    suspend operator fun invoke(todo: Todo) {        repository.editTodo(todo)    }}

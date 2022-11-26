@@ -1,0 +1,1 @@
+package com.example.navigation_test.domain.repositoryimport androidx.lifecycle.LiveDataimport com.example.navigation_test.domain.models.Todointerface TodoRepository {    suspend fun addTodo(todo: Todo)    suspend fun deleteTodo(todo: Todo)    suspend fun editTodo(todo: Todo)    suspend fun getTodo(todoId: Int): Todo    fun getTodoList(): LiveData<List<Todo>>}
